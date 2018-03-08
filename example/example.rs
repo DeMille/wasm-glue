@@ -1,5 +1,6 @@
 extern crate wasm_glue;
 
+// hook up stdout and stderr. do this first.
 #[no_mangle]
 pub fn hook() {
     wasm_glue::hook();

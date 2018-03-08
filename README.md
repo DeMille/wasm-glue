@@ -5,6 +5,8 @@ WebAssembly is cool and all, but Rust `println!`'s don't work out of the box, an
 
 `wasm-glue` is glue code to hook up your stdout and stderr.
 
+👉 [Live Example](https://demille.github.io/wasm-glue/example/)
+
 <br/>
 
 

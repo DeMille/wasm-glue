@@ -2,13 +2,29 @@
 <html>
 
 <head>
-  <title>wasm-glue example</title>
+    <title>wasm-glue example</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        html, body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+        }
+    </style>
 </head>
 
 <body>
-  <h2>Open console ↓</h2>
+    <h1 style="text-align: center; margin: 25px auto;">Open console ↓</h1>
 
-  <script src="main.js"></script>
+    <div style="margin: 25px auto; max-width: 800px; display: flex; flex-direction: column;">
+        <div style="padding: 10px; overflow: hidden;">
+          <script src="rs-embed.js"></script>
+        </div>
+        <div style="padding: 10px; overflow: hidden;">
+          <script src="js-embed.js"></script>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
