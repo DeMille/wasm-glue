@@ -1,0 +1,4 @@
+[[package]]
+name = "wasm-glue"
+version = "0.1.0"
+

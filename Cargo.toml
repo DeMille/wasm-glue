@@ -1,0 +1,14 @@
+[package]
+name = "wasm-glue"
+version = "0.1.0"
+description = "Get println! & panics to work in WebAssembly"
+authors = ["Sterling DeMille <sterlingdemille+github@gmail.com>"]
+
+repository = "https://github.com/demille/wasm-glue"
+homepage = "https://github.com/demille/wasm-glue"
+license = "MIT"
+readme = "README.md"
+keywords = ["WebAssembly", "wasm"]
+
+[lib]
+path = "src/lib.rs"
