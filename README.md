@@ -114,13 +114,13 @@ Check `lib.rs` to see what's going on.
 
 `wasm_glue::hook()` calls all 3 of those magic functions. But you can pick and choose if you'd rather. You can also set stdout / stderr to unbuffered instead of line buffered (the default).
 
-&bullet; **::set_stdout()**
-&bullet; **::set_stdout_unbuffered()**
-&bullet; **::set_stderr()**
-&bullet; **::set_stderr_unbuffered()**
-&bullet; **::set_panic_hook()**
+&bullet; **::set_stdout()**  
+&bullet; **::set_stdout_unbuffered()**  
+&bullet; **::set_stderr()**  
+&bullet; **::set_stderr_unbuffered()**  
+&bullet; **::set_panic_hook()**  
 
-Alternatively, you can just import macros for `print!` / `eprint`:
+Alternatively, you can just use the macros for `print!` / `eprint`:
 
 ```rust
 #[macro_use]
