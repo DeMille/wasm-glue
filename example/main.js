@@ -44,7 +44,7 @@ const imports = {
 };
 
 // fetch and instantiate the wasm module
-fetch('example.wasm')
+fetch('example.webasm')
   .then(response => response.arrayBuffer())
   .then(buffer => WebAssembly.instantiate(buffer, imports))
   .then((result) => {
